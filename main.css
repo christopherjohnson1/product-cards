@@ -1,3 +1,16 @@
-body {
-    background-color: peru;
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+
+}
+
+.product-card {
+    border: solid 1px lightblue;
+    background-color: whitesmoke;
+    width: 30%;
+    text-align: center;
+    margin: 15px 10px;
 }
